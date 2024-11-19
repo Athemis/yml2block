@@ -3,19 +3,14 @@
 
 https://guides.dataverse.org/en/latest/admin/metadatacustomization.html
 """
+import glob
 import os
 import sys
-import click
-import glob
-
 from collections import defaultdict
 
-from yml2block import validation
-from yml2block import output
-from yml2block import rules
-from yml2block import tsv_input
-from yml2block import yaml_input
+import click
 
+from yml2block import output, rules, tsv_input, validation, yaml_input
 from yml2block.rules import Level, LintConfig
 
 

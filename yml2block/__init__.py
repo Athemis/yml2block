@@ -1,8 +1,12 @@
-from . import __main__
-from . import rules
-from . import validation
-from . import output
-from . import tsv_input
-from . import yaml_input
-from . import suggestions
-from . import datatypes
+from . import (
+    __main__,
+    datatypes,
+    output,
+    rules,
+    suggestions,
+    tsv_input,
+    validation,
+    yaml_input,
+)
+
+__all__ = ["__main__", "rules", "validation", "output", "tsv_input", "yaml_input", "suggestions", "datatypes"]

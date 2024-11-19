@@ -3,9 +3,9 @@
 from ruamel.yaml import YAML
 from ruamel.yaml.constructor import DuplicateKeyError
 
-from yml2block.rules import LintViolation, Level
-from yml2block.datatypes import MDBlockList, MDBlockDict, MDBlockNode
 from yml2block import validation
+from yml2block.datatypes import MDBlockDict, MDBlockList, MDBlockNode
+from yml2block.rules import Level, LintViolation
 
 
 def to_md_block_types(data):

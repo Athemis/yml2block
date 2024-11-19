@@ -7,13 +7,12 @@ an error message.
 
 import re
 import sys
-
-from enum import IntEnum
 from collections import Counter, defaultdict
+from enum import IntEnum
 from functools import partial
 
 from yml2block import suggestions
-from yml2block.datatypes import MDBlockList, MDBlockDict, MDBlockNode
+from yml2block.datatypes import MDBlockList
 
 # Note: The order of entries in this list defines the enforced order in the output file
 # Note: These are referred to as top-level keywords.

@@ -6,8 +6,8 @@ import csv
 import io
 import itertools
 
-from yml2block.rules import LintViolation, Level
-from yml2block.datatypes import MDBlockList, MDBlockDict, MDBlockNode
+from yml2block.datatypes import MDBlockDict, MDBlockList, MDBlockNode
+from yml2block.rules import Level, LintViolation
 
 
 def _identify_break_points(full_file):
